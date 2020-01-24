@@ -1,0 +1,47 @@
+@charset="utf-8";
+
+.title {
+	background-color: url(bg-2.jpg);
+	text-align: right;
+}
+
+.title h1 {
+	color: black;
+	position: fixed;
+	top: 10px;
+	left: 60%;
+
+	
+   
+}
+
+.top:before{
+  content:"";
+  display:block;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:-1;
+  width:100%;
+  height: 100vh;
+  background:url(img/bg-1.png) center no-repeat;
+  background-size:cover;
+  background
+}
+.post {
+	background-color: rgba( 255, 255, 255, 1 );
+	opacity: 0.5;
+	border-radius: 10px;
+	margin-top: 50%;
+	color: black;
+	border-radius: 10px;
+
+}
+
+form {
+	position: fixed;
+}
+.__post {
+	
+	border-radius: 10px;
+}
